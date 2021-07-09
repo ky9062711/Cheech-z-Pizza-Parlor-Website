@@ -1,0 +1,86 @@
+body{
+  background-image: url(background2.jpg);
+  background-size: cover;
+}
+.header-img {
+  width: 40%;
+  height: 250px;
+  background: url('cheechzimg.jpeg');
+  background-size: cover;
+  margin-left: 380px;
+  border-radius: 25px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9c7c38;
+}
+li{
+  display: block;
+  float: left;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  background-color: #9c7c38;
+  margin-left: 10px;
+}
+li a:hover{
+  background-color: black;
+}
+img{
+  height: 200px;
+  width: auto;
+  border-radius: 25px;
+}
+.columns{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-left: 300px;
+  color: white;
+  margin-top: 50px;
+}
+.pep{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+.chz{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+.veggie{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+.deep{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 0px;
+  order: 2;
+}
+.meat{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+.hawaii{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+footer{
+  color: #9c7c38;
+  text-align: center;
+  margin-top: 50px;
+}
