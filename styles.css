@@ -1,6 +1,6 @@
 body{
-  background-image: url(background2.jpg);
-  background-size: cover;
+  background-image: url(background2.jpeg);
+  background-repeat: repeat;
 }
 .header-img {
   width: 40%;
@@ -15,7 +15,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #9c7c38;
+  background: linear-gradient(to right, #9c7c38 40%, #f7e98e)
 }
 li{
   display: block;
@@ -39,7 +39,7 @@ img{
   flex-direction: row;
   width: 500px;
   margin-left: 300px;
-  color: white;
+  color: black;
   margin-top: 50px;
 }
 .pep{
@@ -47,18 +47,21 @@ img{
   flex-direction: column;
   text-align: center;
   margin: 0 20px 0 20px;
+  background: linear-gradient(black 40%, #9c7c38 );
 }
 .chz{
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 0 20px 0 20px;
+  background: linear-gradient(black 40%, #9c7c38);
 }
 .veggie{
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 0 20px 0 20px;
+  background: linear-gradient(black 40%, #9c7c38);
 }
 .deep{
   display: flex;
@@ -66,21 +69,37 @@ img{
   text-align: center;
   margin: 0 20px 0 0px;
   order: 2;
+  background: linear-gradient(black 40%, #9c7c38);
 }
 .meat{
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 0 20px 0 20px;
+  background: linear-gradient(black 40%, #9c7c38);
 }
 .hawaii{
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 0 20px 0 20px;
+  background: linear-gradient(black 40%, #9c7c38);
 }
+.container{
+  display: flex;
+  margin-top: 50px;
+  background: linear-gradient(black 40%, #9c7c38);
+}
+.column1{
+  width:600px;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: white;
+}
+
 footer{
   color: #9c7c38;
   text-align: center;
   margin-top: 50px;
+  background-color: black;
 }
