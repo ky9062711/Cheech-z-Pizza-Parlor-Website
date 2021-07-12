@@ -1,0 +1,1 @@
+<!--I learned after the fact that the parent is the only element I needed to flex and will move forward with that knowledge. I made it work but I realize that the process won't be as difficult if I apply flex to the code properly--/>
